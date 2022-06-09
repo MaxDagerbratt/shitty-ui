@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>My First Web Page</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+<body>
+  <div class="shittyContainer">
+
+    <h1>Shitty UI</h1>
+    <h2>What is your name?</h2>
+    <input id="name" />
+  </div>
+<div id="main">
+  <div class="itemDiv">
+      <input id="userNameInput" placeholder="Username"/>
+  </div>
+  <div class="itemDiv">
+      <input type="password" placeholder="Password"/>
+  </div>
+  <img id="bin" src="bin.png">
+</div>
+<div class="shittyContainer">
+
+  <h2>Phone number (insert one at a time)</h2>
+  <select id="phone">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="audi">Audi</option>
+    <option value="audi">Audi</option>
+    <option value="audi">Audi</option>
+    <option value="audi">Audi</option>
+    <option value="audi">Audi</option>
+    <option value="mercedes">Mercedes</option>
+  </select>
+  <p id="phoneNumber"></p>
+  <h2 id="page-heading">Please Select your birthdate.</h2>
+		<div id="input-container">
+			<label id="date-display" for="date-slider">...</label>
+			<div class="slider-container">
+				<input class="slider" id="date-slider" type="range" min="0" max="1654800000000" value="0">
+			</div>
+		</div>
+  <div class="container">
+    <button type="button" value="Click Me!" onmouseover="move(this);" onclick="onClick();" class="button">Submit</button>
+  </div>
+</div>
+</body>
+<script src="./index.js">
+  
+</script>
+<script src="./js.js"></script>
+<script src="./shittyJs.js"></script>
+
+</html>
